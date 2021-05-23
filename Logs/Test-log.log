@@ -1,0 +1,227 @@
+[1621791860.727][INFO]: Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 35285
+[1621791860.727][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1621791861.089][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1621791861.095][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1621791861.095][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1621791861.099][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Nadir\AppData\Local\Temp\scoped_dir15708_255439761" data:,
+[1621791861.898][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1621791861.968][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "90.0.4430.212",
+      "chrome": {
+         "chromedriverVersion": "90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})",
+         "userDataDir": "C:\\Users\\Nadir\\AppData\\Local\\Temp\\scoped_dir15708_255439761"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:23746"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "c03b180b25f7a909f72f04fb60b89b80"
+}
+[1621791862.113][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND Navigate {
+   "url": "https://www.gittigidiyor.com/bilgisayar-tablet/aizen-gx42-i5-3470-16-gb-1tb-hdd-2gb-e-k-23-8-oyuncu-bilgisayari_pdp_576239506"
+}
+[1621791862.113][INFO]: Waiting for pending navigations...
+[1621791862.114][INFO]: Done waiting for pending navigations. Status: ok
+[1621791863.607][INFO]: Waiting for pending navigations...
+[1621791868.136][INFO]: Done waiting for pending navigations. Status: ok
+[1621791868.136][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE Navigate
+[1621791870.145][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".wis\\-clsbtn\\-96096"
+}
+[1621791870.150][INFO]: Waiting for pending navigations...
+[1621791870.151][INFO]: Done waiting for pending navigations. Status: ok
+[1621791870.161][INFO]: Waiting for pending navigations...
+[1621791870.162][INFO]: Done waiting for pending navigations. Status: ok
+[1621791870.162][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "c214af97-41ad-4909-bbd4-c8ff4aca9243"
+}
+[1621791870.168][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND ClickElement {
+   "id": "c214af97-41ad-4909-bbd4-c8ff4aca9243"
+}
+[1621791870.168][INFO]: Waiting for pending navigations...
+[1621791870.169][INFO]: Done waiting for pending navigations. Status: ok
+[1621791870.226][INFO]: Waiting for pending navigations...
+[1621791870.230][INFO]: Done waiting for pending navigations. Status: ok
+[1621791870.230][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE ClickElement
+[1621791872.237][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#add\\-to\\-basket"
+}
+[1621791872.237][INFO]: Waiting for pending navigations...
+[1621791872.238][INFO]: Done waiting for pending navigations. Status: ok
+[1621791872.247][INFO]: Waiting for pending navigations...
+[1621791872.248][INFO]: Done waiting for pending navigations. Status: ok
+[1621791872.249][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1f246f0a-536d-4cb4-a3c1-c5f9201da38b"
+}
+[1621791872.255][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "1f246f0a-536d-4cb4-a3c1-c5f9201da38b",
+      "element-6066-11e4-a52e-4f735466cecf": "1f246f0a-536d-4cb4-a3c1-c5f9201da38b"
+   } ],
+   "script": "arguments[0].click();"
+}
+[1621791872.255][INFO]: Waiting for pending navigations...
+[1621791872.256][INFO]: Done waiting for pending navigations. Status: ok
+[1621791872.369][INFO]: Waiting for pending navigations...
+[1621791872.379][INFO]: Done waiting for pending navigations. Status: ok
+[1621791872.379][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE ExecuteScript null
+[1621791874.384][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND FindElement {
+   "using": "css selector",
+   "value": "a[class='gg-ui-btn-default padding-none']"
+}
+[1621791874.384][INFO]: Waiting for pending navigations...
+[1621791874.386][INFO]: Done waiting for pending navigations. Status: ok
+[1621791874.395][INFO]: Waiting for pending navigations...
+[1621791874.397][INFO]: Done waiting for pending navigations. Status: ok
+[1621791874.397][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4dfb203e-288a-486c-8951-d6fde6ab0a9e"
+}
+[1621791874.402][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND ClickElement {
+   "id": "4dfb203e-288a-486c-8951-d6fde6ab0a9e"
+}
+[1621791874.402][INFO]: Waiting for pending navigations...
+[1621791874.403][INFO]: Done waiting for pending navigations. Status: ok
+[1621791874.474][INFO]: Waiting for pending navigations...
+[1621791875.219][INFO]: Done waiting for pending navigations. Status: ok
+[1621791875.220][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE ClickElement
+[1621791877.226][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND FindElement {
+   "using": "css selector",
+   "value": "a[title='Sil']"
+}
+[1621791877.241][INFO]: Waiting for pending navigations...
+[1621791877.243][INFO]: Done waiting for pending navigations. Status: ok
+[1621791877.252][INFO]: Waiting for pending navigations...
+[1621791877.253][INFO]: Done waiting for pending navigations. Status: ok
+[1621791877.253][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "7a6e3307-9fe3-40d7-99a2-c2f00f63f336"
+}
+[1621791877.258][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND ClickElement {
+   "id": "7a6e3307-9fe3-40d7-99a2-c2f00f63f336"
+}
+[1621791877.258][INFO]: Waiting for pending navigations...
+[1621791877.259][INFO]: Done waiting for pending navigations. Status: ok
+[1621791877.315][INFO]: Waiting for pending navigations...
+[1621791877.324][INFO]: Done waiting for pending navigations. Status: ok
+[1621791877.324][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE ClickElement
+[1621791879.329][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[class='gg-w-15 gg-d-14 gg-t-14 gg-m-24']"
+}
+[1621791879.330][INFO]: Waiting for pending navigations...
+[1621791879.331][INFO]: Done waiting for pending navigations. Status: ok
+[1621791879.341][INFO]: Waiting for pending navigations...
+[1621791879.342][INFO]: Done waiting for pending navigations. Status: ok
+[1621791879.342][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9c8a396f-b905-450c-9a4f-a9d41c868479"
+}
+[1621791879.345][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND GetElementText {
+   "id": "9c8a396f-b905-450c-9a4f-a9d41c868479"
+}
+[1621791879.345][INFO]: Waiting for pending navigations...
+[1621791879.347][INFO]: Done waiting for pending navigations. Status: ok
+[1621791879.363][INFO]: Waiting for pending navigations...
+[1621791879.365][INFO]: Done waiting for pending navigations. Status: ok
+[1621791879.365][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE GetElementText "Sepetinizde ürün bulunmamaktadır.\nAlışverişe devam etmek için anasayfaya gidebilir veya Süper Fiyatlar ürünlerine göz atabilirsiniz.\nGiriş Yap"
+[1621791879.373][INFO]: [c03b180b25f7a909f72f04fb60b89b80] COMMAND Quit {
+
+}
+[1621791879.433][INFO]: [c03b180b25f7a909f72f04fb60b89b80] RESPONSE Quit
